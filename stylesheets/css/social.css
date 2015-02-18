@@ -1,0 +1,42 @@
+.share-settings{
+	margin: 5px 0;
+	display: block;
+}
+.share-settings > textarea {
+	float: left;
+	width: 27%;
+	margin-left: 1%;
+}
+.share-settings > span{
+	float: left;
+	width: 67%;
+	margin-left: 3%;
+	
+} 
+.share-settings > textarea {
+	height: 60px;
+	resize: none;
+}
+.social-sharing{
+	margin-top: 10px;
+	display: block;
+}
+.fb-page{
+	display: block;
+	float: left;
+	width: 30%;
+	height: 32px;
+	position: relative;
+	overflow: hidden;
+}
+.wide .fb-page input + label{
+	left: 5px;
+	top: 0;
+}
+.social-sharing .title{
+	margin-bottom: 10px;
+	display: block;
+}
+#log-to-fb{
+color: #0077dd;
+}

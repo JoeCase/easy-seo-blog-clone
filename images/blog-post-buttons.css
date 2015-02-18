@@ -1,0 +1,14 @@
+.blog-post-buttons{ width:70px; height:70px; background:url("blog-post-buttons.png") top left no-repeat; }
+.post_link:active{ width:70px; height:70px; background-position:-10px -10px; }
+.post_link:hover{ width:70px; height:70px; background-position:-10px -90px; }
+.post_link{ width:70px; height:70px; background-position:-10px -170px; }
+.post_video:active{ width:70px; height:70px; background-position:-10px -250px; }
+.post_video:hover{ width:70px; height:70px; background-position:-10px -330px; }
+.post_video{ width:70px; height:70px; background-position:-10px -410px; }
+.post_photo:active{ width:70px; height:70px; background-position:-10px -490px; }
+.post_photo:hover{ width:70px; height:70px; background-position:-10px -570px; }
+.post_photo{ width:70px; height:70px; background-position:-10px -650px; }
+.post_text:active{ width:70px; height:70px; background-position:-10px -730px; }
+.post_text:hover{ width:70px; height:70px; background-position:-10px -810px; }
+.post_text{ width:70px; height:70px; background-position:-10px -890px; }
+

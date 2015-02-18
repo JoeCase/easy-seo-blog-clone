@@ -1,0 +1,9 @@
+Options +FollowSymLinks  
+RewriteEngine On  
+
+RewriteCond %{REQUEST_FILENAME} !-f [OR] 
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteCond %{REQUEST_URI} !^.*\.(jpg|css|js|gif|png|php)$ [NC]
+
+RewriteRule ^.*$ index.php [QSA]
