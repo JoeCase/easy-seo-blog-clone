@@ -52,12 +52,8 @@ CKEDITOR.editorConfig = function( config ) {
 
 	// Replace deafult Link plugin by WixLink plugin
 	config.extraPlugins = 'codemirror,wixlink,wpmore';
-	
-	// Enable Wixgallery only for Chrome and Safari
-	if ( CKEDITOR.env.webkit ) {
-		config.extraPlugins += ',wixgallery';
-		insertItems.push('wixgallery');
-	}
+	config.extraPlugins += ',wixgallery';
+	insertItems.push('wixgallery');
 	config.removePlugins = 'autogrow,link,image';
 	
 	// Disables the ability of resize objects (image and tables) in the editing area.
