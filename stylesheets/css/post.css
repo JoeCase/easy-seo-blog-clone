@@ -263,11 +263,7 @@ body {
 	float: right;
 	margin-bottom: 7px;
 }
-.title, .title > a, .caption p, .caption, .rec-title, .rec-title a, .sidebar .tag-cloud a {
-    word-wrap: break-word;
-}
 .mobile  .title, .mobile .title > a, .mobile .caption p, .mobile .caption{
-    word-break:break-all;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
