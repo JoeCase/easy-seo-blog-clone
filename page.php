@@ -92,7 +92,6 @@
     <link type="text/css" href="<?php echo base_url(); ?>stylesheets/css/post.min.css?v=<?php echo $options['version']; ?>" rel="stylesheet">
     <link type="text/css" href="<?php echo base_url(); ?>stylesheets/css/blog.settings.min.css?v=<?php echo $options['version']; ?>" rel="stylesheet">
     <link type="text/css" href="<?php echo base_url(); ?>stylesheets/css/layouts.min.css?v=<?php echo $options['version']; ?>" rel="stylesheet">
-    <link type="text/css" href="<?php echo base_url(); ?>stylesheets/css/jquery.mCustomScrollbar.min.css?v=<?php echo $options['version']; ?>" rel="stylesheet" />
     
 
     <?php if(isset($options['showSidebar']) && $options['showSidebar']) { ?> 
@@ -112,7 +111,6 @@
     <script type="text/javascript" src="<?php echo base_url(); ?>javascripts/components/imagesloaded/jquery.imagesloaded.min.js?v=<?php echo $options['version']; ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>javascripts/components/tags/jquery.tagsinput.min.js?v=<?php echo $options['version']; ?>"></script>
 	<script type="text/javascript" src="<?php echo base_url(); ?>javascripts/components/video/embed-video.min.js?v=<?php echo $options['version']; ?>"></script>
-	<script type="text/javascript" src="<?php echo base_url(); ?>javascripts/components/custom-scrollbars/jquery.mCustomScrollbar.concat.min.js?v=<?php echo $options['version']; ?>"></script>
 	<?php if ($options['pageLayout'] == 'pinterest'):?>	
 	<script type="text/javascript" src="<?php echo base_url(); ?>javascripts/components/masonry/jquery.masonry.min.js?v=<?php echo $options['version']; ?>"></script>
 	<?php endif; ?>
@@ -424,15 +422,6 @@
                 Wix.setHeight($(".allPosts").innerHeight());
             } else {
                 clearInterval(heightInterval);
-                $('.allPosts').css('height', '100%').mCustomScrollbar({
-                    scrollInertia:0,
-                    mouseWheelPixels:50,
-                    autoHideScrollbar:true,
-                    advanced: {
-                        updateOnContentResize: true,
-                        autoScrollOnFocus: false
-                    }
-                });
             }
         }
 	</script> 
