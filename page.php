@@ -118,7 +118,7 @@
 	<?php endif; ?>
 
     <!-- Wix JS SDK -->
-	<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.23.0/js/Wix.js"></script>
+	<script type="text/javascript" src="//static.parastorage.com/services/js-sdk/1.61.0/js/wix.min.js"></script>
     	<style type="text/css">     
   		<?php                                                   
   			echo 'body{background-color:'.$options['bg_color_rgba'].';}'; 
