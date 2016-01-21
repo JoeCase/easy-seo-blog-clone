@@ -78,7 +78,7 @@ if (isset($_REQUEST['action'])) {
 	<![endif]-->
 	
 	<!-- Wix JS SDK -->
-	<script type="text/javascript" src="//sslstatic.wix.com/services/js-sdk/1.23.0/js/Wix.js"></script>
+	<script type="text/javascript" src="//static.parastorage.com/services/js-sdk/1.61.0/js/wix.min.js"></script>
 	
 	<!-- File picker SDK -->
 	<script type="text/javascript" src="//api.filepicker.io/v1/filepicker.js"></script>
